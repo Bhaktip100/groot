@@ -174,9 +174,15 @@
         $.preventDefault();
     });
 
+    $('.gen_3d').on('click', function () {
+        $('.3d-model').removeClass('hidden');
+        $('.gen_3d_section').addClass('hidden');
+    });
+
     // :: 14.0 wow Active Code
     if (browserWindow.width() > 767) {
         new WOW().init();
     }
 
+    
 })(jQuery);

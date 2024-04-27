@@ -2641,4 +2641,6 @@ img {
 
 /* ======= The End ======= */
 
-/*# sourceMappingURL=style.css.map */
+.hidden {
+  display: none;
+}
